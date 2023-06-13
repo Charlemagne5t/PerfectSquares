@@ -15,4 +15,11 @@ public class SolutionTest {
         int output = 3;
         Assert.assertEquals(output, new Solution().numSquares(n));
     }
+
+    @Test
+    public void numSquaresTest3() {
+        int n = 13;
+        int output = 2;
+        Assert.assertEquals(output, new Solution().numSquares(n));
+    }
 }
